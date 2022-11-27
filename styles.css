@@ -1,0 +1,142 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-white-gold-background_23-2149290000.jpg?w=2000");
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-column {
+    height: 90vh;
+    width: 35vw;
+    margin-top: 4vh;
+    margin-left: 10vw;
+    border-radius: 40px;
+    border-bottom-right-radius: 0;
+    opacity: 0.9;
+    background-color: #FFEDDB;
+}
+
+.second-column {
+    height: 90vh;
+    width: 35vw;
+    margin-top: 4vh;
+    margin-right: 10vw;
+    border-radius: 40px;
+    border-bottom-left-radius: 0;
+    opacity: 0.9;
+    background-color: #FFEDDB;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.8vw;
+    color: #9D5C0D;
+    margin-top: 6vh;
+}
+
+.photo {
+
+    width: 13vw;
+    height: auto;
+    opacity: 1;
+    margin: 5vh 11vw ;
+    border: 0.3vw solid #EDCDBB;
+    border-top-right-radius: 40px;
+}
+
+.description {
+    text-align: justify;
+    font-size: 1.1vw;
+    color: #9D5C0D;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.education {
+    text-align: justify;
+    font-size: 1.1vw;
+    color: #9D5C0D;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.experience {
+    text-align: justify;
+    font-size: 1.1vw;
+    color: #9D5C0D;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.skills {
+    text-align: justify;
+    font-size: 1.1vw;
+    color: #9D5C0D;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.bars {
+    position: absolute;
+    left: 75vw;
+    display: inline-block;
+    width: 5vw;
+    height: 1vh;
+    background-color: #E3B7A0;
+    border: 0.1vw solid #9D5C0D;
+    margin-top: 0.8vh;
+}
+
+.bar2 {
+    width: 4vw;
+}
+
+.bar3 {
+    width: 4vw;
+}
+
+
+.skillss {
+        display: flex;
+        justify-content: space-around;
+}
+
+.contact {
+    text-align: justify;
+    font-size: 1.1vw;
+    color: #9D5C0D;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.facebook {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.info:hover, .info a:hover {
+    color: #58391C;
+    cursor: pointer;
+}
+
+.github {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.phone {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: #9D5C0D;
+}
